@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starlink Mini Travel Kit – Complete Build List</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --card: #1a2332;
+    --accent: #00a3e0;
+    --text: #e6edf3;
+    --muted: #8b9cb3;
+    --border: #2d3a4f;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 20px;
+  }
+  .container { max-width: 800px; margin: 0 auto; }
+  header {
+    text-align: center;
+    padding: 40px 0 30px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 30px;
+  }
+  h1 { font-size: 2.2rem; margin-bottom: 10px; }
+  .subtitle { color: var(--muted); font-size: 1.1rem; }
+  .intro {
+    background: var(--card);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    border: 1px solid var(--border);
+  }
+  .item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .item-num {
+    background: var(--accent);
+    color: #000;
+    font-weight: 700;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 0.95rem;
+  }
+  .item-content { flex: 1; }
+  .item h2 { font-size: 1.25rem; margin-bottom: 6px; }
+  .item p { color: var(--muted); margin-bottom: 12px; font-size: 0.95rem; }
+  .price { color: #4ade80; font-weight: 600; margin-right: 8px; }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #000;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-right: 8px;
+    margin-top: 4px;
+  }
+  .btn:hover { opacity: 0.9; }
+  .btn-secondary {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+  }
+  .notes {
+    background: #1e2a3a;
+    border-left: 3px solid var(--accent);
+    padding: 12px 16px;
+    margin-top: 12px;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.9rem;
+  }
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .tag {
+    display: inline-block;
+    background: #2d3a4f;
+    color: var(--muted);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    margin-left: 8px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Starlink Mini Travel Kit</h1>
+    <p class="subtitle">Everything you need to build a complete portable setup</p>
+  </header>
+
+  <div class="intro">
+    <p><strong>Based on a real working build.</strong> This is the exact kit used by people who already have a Starlink Mini. The case holds the dish (mounted in the lid), power station, solar panel, and cables so everything stays protected and ready to go.</p>
+    <p style="margin-top:10px; color:var(--muted);">The Starlink Mini itself is <em>not</em> included — this is the supporting gear.</p>
+  </div>
+
+  <!-- 1. Case -->
+  <div class="item">
+    <div class="item-num">1</div>
+    <div class="item-content">
+      <h2>Apache 4800 Weatherproof Case <span class="tag">Harbor Freight</span></h2>
+      <p>IP65 hard case with pick-and-pull foam. Large enough for the Starlink Mini (mounted in the lid), Anker power station, solar panel, and cables. ~$60 at Harbor Freight — much cheaper than Pelican equivalents.</p>
+      <span class="price">~$60</span>
+      <a class="btn" href="https://www.harborfreight.com/4800-weatherproof-protective-case-x-large-orange-56866.html" target="_blank">Buy at Harbor Freight</a>
+      <a class="btn btn-secondary" href="https://www.amazon.com/s?k=apache+4800+case" target="_blank">Amazon options</a>
+      <div class="notes">Comes with foam. You can customize the foam or leave the pick-and-pull as-is. The beige/tan version is shown in the original build photos.</div>
+    </div>
+  </div>
+
+  <!-- 2. Mount -->
+  <div class="item">
+    <div class="item-num">2</div>
+    <div class="item-content">
+      <h2>Starlink Mini Lid Mount (Inside Case) <span class="tag">Etsy</span></h2>
+      <p>3D-printed mount that holds the Starlink Mini securely in the lid of the Apache 4800 so it doesn’t fall when the case is closed or carried. Specific model for the 10 3/16" × 11 3/4" Mini.</p>
+      <span class="price">~$45</span>
+      <a class="btn" href="https://www.etsy.com/listing/1830188560/starlink-mini-mount-inside-case" target="_blank">Buy on Etsy</a>
+      <div class="notes">Seller notes: lightly sand the inner lid surface so the adhesive/glue sticks well. Multiple people have confirmed it fits the Apache 4800 perfectly.</div>
+    </div>
+  </div>
+
+  <!-- 3. Power Station -->
+  <div class="item">
+    <div class="item-num">3</div>
+    <div class="item-content">
+      <h2>Anker SOLIX C300 DC Portable Power Station</h2>
+      <p>288Wh LiFePO4 battery. Powers the Starlink Mini for many hours and can be recharged from solar, USB-C, or a car. Compact enough to fit in the case with the rest of the gear. Multiple USB-C ports + car socket.</p>
+      <span class="price">~$200</span>
+      <a class="btn" href="https://www.amazon.com/dp/B0D62PMB3R" target="_blank">Buy on Amazon</a>
+      <div class="notes">The DC version (no AC outlets) is lighter and cheaper. Runtime on a Mini is typically 7–9+ hours depending on usage. Pair with solar for longer trips.</div>
+    </div>
+  </div>
+
+  <!-- 4. Solar -->
+  <div class="item">
+    <div class="item-num">4</div>
+    <div class="item-content">
+      <h2>Foldable Solar Panel (60–100W)</h2>
+      <p>Recharges the Anker power station off-grid. A 60W or 100W foldable panel fits in the case and keeps the system running indefinitely in good sun. Anker SOLIX panels are the easiest match; other compatible panels also work.</p>
+      <span class="price">$80–200</span>
+      <a class="btn" href="https://www.amazon.com/s?k=anker+solix+60w+solar+panel" target="_blank">Anker 60W options</a>
+      <a class="btn btn-secondary" href="https://www.amazon.com/s?k=anker+solix+100w+solar+panel" target="_blank">100W options</a>
+      <div class="notes">The original build uses a foldable black panel that packs into the case. Confirm XT60 or compatible connector for the C300 DC.</div>
+    </div>
+  </div>
+
+  <!-- 5. Cables / extras -->
+  <div class="item">
+    <div class="item-num">5</div>
+    <div class="item-content">
+      <h2>Cables & Small Accessories</h2>
+      <p>USB-C cables (for charging the power station and powering the Mini), a car charger adapter if you want to top up while driving, and any extra connectors. Most of these come with the power station or are cheap add-ons.</p>
+      <span class="price">~$20–40</span>
+      <a class="btn" href="https://www.amazon.com/s?k=100w+usb-c+cable" target="_blank">USB-C cables</a>
+      <div class="notes">The original kit includes coiled cables and a small car charger. Keep a spare USB-C to barrel or official Starlink cable as backup.</div>
+    </div>
+  </div>
+
+  <div class="intro" style="margin-top:30px;">
+    <h2 style="margin-bottom:10px;">About Official Starlink Batteries</h2>
+    <p>Starlink does <strong>not</strong> currently sell an official portable battery pack for the Mini. Aftermarket clip-on packs (such as the PeakDo LinkPower 2) offer ~4–6 hours of runtime and attach directly to the dish. Larger solutions like the Star-Batt exist but are much heavier and more expensive. The Anker + solar approach in this kit is one of the most popular DIY methods for longer off-grid use.</p>
+  </div>
+
+  <div class="intro" style="margin-top:30px; text-align:center;">
+    <h2 style="margin-bottom:10px;">Don’t have a Starlink Mini yet?</h2>
+    <p>Get $100 in cash or Starlink service credit when you sign up through this link. Fast, reliable internet at home and on the go. Terms apply.</p>
+    <p style="margin:16px 0;">
+      <a class="btn" href="https://starlink.com?referral=RC-DF-16036424-99882-8" target="_blank" style="font-size:1rem; padding:12px 24px;">Sign up with my referral</a>
+    </p>
+    <p style="color:var(--muted); font-size:0.85rem;">New customers only. Must order on starlink.com through the link.</p>
+  </div>
+
+  <footer>
+    <p>Curated from a real Starlink Mini travel kit. Links go directly to the sellers — no affiliate tracking unless you add your own tag later.</p>
+    <p style="margin-top:8px;">Share this page so others can build the same setup.</p>
+  </footer>
+</div>
+</body>
+</html>
